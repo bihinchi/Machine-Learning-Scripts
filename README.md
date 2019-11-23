@@ -1,5 +1,5 @@
 # Vehicle-classifier
-Tensorflow based classifier that can able to predict what category an image of a vehicle belongs too. The project was used in [kaggle competition}(www.kaggle.com/c/vehicle). Classifier was able to achieve the accurasy of 91%.
+Tensorflow based classifier that can able to predict what category an image of a vehicle belongs too. The project was used in [kaggle competition](https://www.kaggle.com/c/vehicle) .Classifier was able to achieve the accurasy of 91%.
 
 # Prerequistes
 List of the software used the classifier (Older versions might work as well, but they were not tested):
