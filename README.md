@@ -1,5 +1,5 @@
 # Description
-Tensorflow based utilities used for training convolutional neural networks. The scripts were used in [kaggle competition](https://www.kaggle.com/c/vehicle) and reached the accurasy of 91% resulting in the 2nd place.
+Tensorflow based utilities used for training convolutional neural networks. The scripts were used in [kaggle competition](https://www.kaggle.com/c/vehicle) and helped to reach the accurasy of 91% resulting in the 2nd place.
 
 # Prerequistes
 Packages and other software used in the scripts:
