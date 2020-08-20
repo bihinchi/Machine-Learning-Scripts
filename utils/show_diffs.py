@@ -14,14 +14,10 @@ def get_differences_dataframe(data, data_old):
     return diffs
 
 
-
 def get_file_name(id):
     nums = len(str(id))
     zeros = "0" * (6 - nums)
     return zeros + str(id) + ".jpg"
-
-
-
 
 
 def process(new, old, source, destination):
@@ -37,7 +33,6 @@ def process(new, old, source, destination):
         except Exception:
             pass
         
-
     ids = diffs.index.to_frame()[0]
     files = ids.apply(get_file_name)
     
@@ -52,14 +47,8 @@ def process(new, old, source, destination):
         else :
             print('file does not exist', name)
     
-
     print("Done!")
 
-
-
-'''
-
-'''
 
 
 if __name__ == '__main__':
