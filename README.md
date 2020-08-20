@@ -9,7 +9,7 @@ List of the software used the classifier (Older versions might work as well, but
 
 * tensorflow(>= 2.0.0)
 * efficientnet(>=1.0.0)
-* imageai(>= 2.1.5) *(preprocessing only)*
+* opencv-python(>= 4.4.0.42)
 
 # How to use
 
