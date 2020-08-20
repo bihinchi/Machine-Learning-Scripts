@@ -1,4 +1,4 @@
-import tensorflow as tf
+	import tensorflow as tf
 import numpy as np
 from data_load import get_sequence
 from multiprocessing import cpu_count
@@ -99,7 +99,7 @@ if __name__ == "__main__":
     args = parser.parse_args()
 
     if not args.model_path or not args.data_path:
-        arg_parser.print_help()
+        parser.print_help()
     else:
         train(data_path=args.data_path,
               model_path=args.model_path,
