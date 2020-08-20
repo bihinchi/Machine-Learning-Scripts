@@ -7,7 +7,6 @@ Packages and other software used in the scripts
 ## Python packages
 
 * tensorflow(>= 2.0.0)
-* efficientnet(>=1.0.0)
 * opencv-python(>= 4.4.0.42)
 
 # How to use
